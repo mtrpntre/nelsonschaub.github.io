@@ -13,8 +13,8 @@
     gap: 10px 40px; 
     grid-template-areas: 
       "header header header"
-      "menuu images images"
-      "menuu images images"; 
+      "menuu bio bio"
+      "menuu bio bio"; 
   }
 
   .header { grid-area: header;
@@ -27,7 +27,7 @@
                 text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
             }                  
 
-
+       
 
   .menu { 
       padding: 30px 30px 10px 10px;
@@ -35,7 +35,7 @@
       /*box-shadow: 2px 2px 20px 30px rgba(250, 172, 172, 0.541);*/
        }
        ul {
-        list-style-type: "~ ";
+        list-style-type: "* ";
     }
     
       .menu li:hover{
@@ -46,29 +46,25 @@
        
 
 
-  .images { grid-area: images;
-            overflow:auto;
-            display: grid;
-            justify-items: center;
-            padding: 30px 30px 30px 30px;
-            
-            
-            }
-            .images img {
-                max-width: 100%;
-                height: auto;
-                
-                
-            }
-
-
-            #otherr {
+  
+            .bio { grid-area: bio;
+                overflow:auto;
+                display: grid;
+                justify-items: center;
+                padding: 30px 30px 30px 30px;
                 text-decoration-style: double;
-                            text-shadow: 1px 1px 2px rgb(246, 253, 148), 0 0 1em rgb(255, 109, 243), 0 0 0.2em rgb(0, 255, 64);
-                            list-style-type: " ";
-            
-            }
-            
+                text-shadow: 1px 1px 2px rgb(246, 253, 148), 0 0 1em rgb(255, 109, 243), 0 0 0.2em rgb(0, 255, 64);
+                
+                
+                }
+
+#otherr {
+    text-decoration-style: double;
+                text-shadow: 1px 1px 2px rgb(246, 253, 148), 0 0 1em rgb(255, 109, 243), 0 0 0.2em rgb(0, 255, 64);
+                list-style-type: " ";
+
+}
+
  
     
   
